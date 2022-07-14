@@ -7,6 +7,9 @@
     <h3>
       A place for like minded people to learn about all things coding.
     </h3>
+    <h3 class="mt-8">
+      Interested? Send us an <span class="text-blue-800"> <a href="mailto:ry.brock@ymail.com">Email</a></span>
+    </h3>
   </div>
 </template>
 

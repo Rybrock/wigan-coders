@@ -30,13 +30,7 @@ import SupportIcon from './icons/IconSupport.vue'
       <CommunityIcon />
     </template>
     <template #heading>Community</template>
-    Got stuck? Ask your question on
-    <a target="_blank" href="https://chat.vuejs.org">Vue Land</a>, our official Discord server, or
-    <a target="_blank" href="https://stackoverflow.com/questions/tagged/vue.js">StackOverflow</a>.
-    You should also subscribe to
-    <a target="_blank" href="https://news.vuejs.org">our mailing list</a> and follow the official
-    <a target="_blank" href="https://twitter.com/vuejs">@vuejs</a>
-    twitter account for latest news in the Vue world.
+    Got stuck? Ask your question on Slack or many other digital tools we use to communicate. Once you've been to see us a couple of times, we will add you to our growing community where you can ask any questions you like, anytime of the day.
   </WelcomeItem>
 
   <WelcomeItem>
@@ -44,8 +38,6 @@ import SupportIcon from './icons/IconSupport.vue'
       <SupportIcon />
     </template>
     <template #heading>Support</template>
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a target="_blank" href="https://vuejs.org/sponsor/">becoming a sponsor</a>.
+    Here at Wigan Coders we are 2 professional developers working in the industry. We have first hand experience and knowledge to help guide and advise you. From improving your coding skills to improving your interviewing experience, we are here to help.
   </WelcomeItem>
 </template>
