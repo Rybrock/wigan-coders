@@ -1,10 +1,10 @@
 <template>
-  <div v-if="loaded">
+  <div v-if="loaded" class="mt-4 mb-6">
     <section class="
         text-3xl
         flex
         justify-center
-        content-center
+        items-center
         flex-col
         mx-auto
         text-center
@@ -15,7 +15,7 @@
       The next meet-up is in
     </h2>
     <h2 v-else class="text-center text-3xl">Expired!</h2>
-    <section class="flex justify-center content-center text-6xl">
+    <section class="flex justify-center content-center mx-auto text-6xl mb-6">
       <div class="days mr-1 mt-2 relative">
         {{ displayDays }}
         <div class="label text-sm absolute bottom-0 left-4">days</div>
@@ -36,8 +36,8 @@
         <div class="label text-sm absolute bottom-0 left-4">sec</div>
       </div>
     </section>
-    <div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37939.65447101346!2d-2.6365718281355974!3d53.53583588479713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b0f7a87e9050f%3A0x37fbc44593c758a9!2sWigan%20Library!5e0!3m2!1sen!2suk!4v1657920778354!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="w-full flex">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37939.65447101346!2d-2.6365718281355974!3d53.53583588479713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b0f7a87e9050f%3A0x37fbc44593c758a9!2sWigan%20Library!5e0!3m2!1sen!2suk!4v1657920778354!5m2!1sen!2suk" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </template>
