@@ -15,7 +15,10 @@ import HelloWorld from "@/components/HelloWorld.vue";
 
       <nav class="p-3">
         <RouterLink class="p-2 rounded text-xl text-blue-800 hover:bg-blue-200" to="/">Home</RouterLink> |
-        <RouterLink class="p-2 rounded text-xl text-blue-800 hover:bg-blue-200" to="/our-meets">Our Meets</RouterLink>
+        <RouterLink class="p-2 rounded text-xl text-blue-800 hover:bg-blue-200" to="/our-meets">Our Meets</RouterLink> |
+        <RouterLink class="p-2 rounded text-xl text-blue-800 hover:bg-blue-200" to="/Gallery">Gallery</RouterLink> |
+        <RouterLink class="p-2 rounded text-xl text-blue-800 hover:bg-blue-200" to="/about">About</RouterLink>
+
       </nav>
     </div>
   </header>

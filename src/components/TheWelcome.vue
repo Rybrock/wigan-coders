@@ -13,7 +13,7 @@ import SupportIcon from './icons/IconSupport.vue'
       <QuestionIcon />
     </template>
     <template #heading>Why learn how to code?</template>
-    <p>Learning how to code can be very rewarding in many different ways. Flexible hours and remote working to name but a few.</p>
+    <p>Learning how to code can be very rewarding in many different ways. Flexible hours and remote working to name but a few. All you need is a laptop and heaps of enthusiasm.</p>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -22,7 +22,7 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Digital Tooling and Skills</template>
     <p>Who doesn't want to learn a new skill? Maybe a new language?</p>
-    <p>At Wigan Coders, we can provide with the digital tools and coding environment you need to get started.</p>
+    <p>At Wigan Coders, we can provide you with the digital tools and coding environment you need to get started.</p>
   </WelcomeItem>
 
   <WelcomeItem>
