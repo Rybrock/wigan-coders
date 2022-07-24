@@ -3,7 +3,7 @@
     <CountdownItem  
     :year="2022"
     :month="6"
-    :date="23"
+    :date="30"
     :hour="9"
     :minute="59"
     :second="59"
