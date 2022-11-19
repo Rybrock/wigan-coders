@@ -12,10 +12,10 @@
                 <div>
                     <span>Find us on Social</span>
                     <div class="flex items-center justify-center text-lg md:space-x-2">
-                    <span><img src="../assets/icons8-facebook.svg" alt=""></span>
-                    <span><img src="../assets/icons8-instagram.svg" alt=""></span>
-                    <span><img src="../assets/icons8-twitter.svg" alt=""></span>
-                    <span><img src="../assets/icons8-github.svg" alt=""></span>
+                    <span><img src="../assets/icons8-facebook.svg" alt="facebook footer icon" width="30" height="30"></span>
+                    <span><img src="../assets/icons8-instagram.svg" alt="instagram footer icon" width="30" height="30"></span>
+                    <span><img src="../assets/icons8-twitter.svg" alt="twitter footer icon" width="30" height="30"></span>
+                    <span><img src="../assets/icons8-github.svg" alt="github footer icon" width="30" height="30"></span>
                 </div>
                 </div>
                 <div class="px-5">

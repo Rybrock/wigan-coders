@@ -8,7 +8,7 @@
                             coders<span class="text-red-500"> /></span></span>
                     </div>
                     <div class="md:hidden" @click.prevent="openCloseNav()">
-                        <img src="../assets/menu_FILL0_wght400_GRAD0_opsz48.svg" width="30" height="30" alt="" class="ml-10" />
+                        <img src="../assets/menu_FILL0_wght400_GRAD0_opsz48.svg" width="30" height="30" alt="menu icon" class="ml-10" />
                     </div>
                 <div class="font-bold space-x-8 hidden md:flex">
                     <router-link to="/">Home</router-link>
@@ -20,18 +20,24 @@
             <div v-if="navIsOpen" class="nav-modal shadow-lg absolute top-5 left-0 bg-white p-4 w-10/12">
                 <div class="top-0 right-5">
                     <img @click.prevent="openCloseNav()" src="../assets/close_FILL0_wght400_GRAD0_opsz48.svg" width="20"
-                        height="20" alt="" class="font-bold">
+                        height="20" alt="close menu icon" class="font-bold">
                 </div>
                 <div class="text-xl p-4 font-bold">
                     <ul class="space-y-6">
-                        <li>
+                        <li @click="openCloseNav()">
                             <router-link to="/"> Home </router-link>
                         </li>
-                        <li>
+                        <li @click="openCloseNav()">
                             <router-link to="/about"> About </router-link>
                         </li>
-                        <li>
+                        <li @click="openCloseNav()">
                             <router-link to="/contact"> Contact </router-link>
+                        </li>
+                        <li class="text-gray-300">
+                            HTML course - soon
+                        </li>
+                        <li class="text-gray-300">
+                            CSS course - soon
                         </li>
                     </ul>
                 </div>

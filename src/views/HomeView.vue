@@ -26,6 +26,9 @@
         <div class="mt-10">
       <app-countdown :date="end" @onFinish="finish()"></app-countdown>
     </div>
+    <div class="mt-2 ml-1 text-left">
+      <span class="mt-4">see where we are <a href="https://goo.gl/maps/BfCne5e6i4SWBMZC7" target="_blank" class="text-blue-400">located</a></span>
+    </div>
       </div>
    
       <div class="w-full lg:w-6/12">
@@ -33,6 +36,8 @@
           src="../assets/HP-IMG.jpg"
           alt="image of a person coding"
           class="w-full mt-8 lg-mt-0"
+          width="800"
+          height="533"
         />
       </div>
     

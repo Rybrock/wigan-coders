@@ -1,25 +1,25 @@
 <template>
     <div class="flex flex-col lg:flex-row space-x-0 lg:space-x-4">
-        <div class="flex justify-center p-4 rounded-full space-x-6 bg-blue-200 hover:bg-blue-100 w-full lg:w-5/12 hidden lg:flex">
+        <div class="flex justify-center p-4 rounded-full space-x-6 bg-blue-200 hover:bg-blue-100 lg:w-5/12 hidden lg:flex">
         <span class="text-grey font-bold text-lg">Join us on the next event ></span>
     </div>
     <div class="lg:hidden mb-4">
         <span class="ext-grey font-bold text-2xl text-left">Our next event is</span>
     </div>
-    <div class="countdown flex justify-center p-2 md:p-4 rounded-full space-x-6 bg-blue-400 hover:bg-blue-300 w-full md:w-5/12">
-      <div v-if="days" class="countdown__block text-2xl font-bold text-white flex space-x-2">
+    <div class="countdown flex justify-center p-3 md:p-4 rounded-full space-x-6 bg-blue-400 hover:bg-blue-300 w-10/12 md:w-5/12">
+      <div v-if="days" class="countdown__block text-xl font-bold text-white flex space-x-2">
         <div class="countdown__digit">{{ days | twoDigits }}</div>
-        <div class="countdown__text text-xl">Days</div>
+        <div class="countdown__text">Days</div>
       </div>
-      <div class="countdown__block text-2xl font-bold text-white flex space-x-2">
+      <div class="countdown__block text-xl font-bold text-white flex space-x-2">
         <div class="countdown__digit">{{ hours | twoDigits }}</div>
         <div class="countdown__text">Hrs</div>
       </div>
-      <div class="countdown__block text-2xl font-bold text-white flex space-x-2">
+      <div class="countdown__block text-xl font-bold text-white flex space-x-2">
         <div class="countdown__digit">{{ minutes | twoDigits }}</div>
         <div class="countdown__text">Min</div>
       </div>
-      <div class="countdown__block text-2xl font-bold text-white flex space-x-2">
+      <div class="countdown__block text-xl font-bold text-white flex space-x-2">
         <div class="countdown__digit">{{ seconds | twoDigits }}</div>
         <div class="countdown__text">Sec</div>
       </div>

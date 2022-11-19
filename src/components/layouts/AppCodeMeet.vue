@@ -11,7 +11,9 @@
             <span
               ><img
                 src="../../assets/build_FILL0_wght400_GRAD0_opsz48.svg"
-                alt=""
+                alt="setup tools icon"
+                width="48"
+                height="48"
             /></span>
             <span class="font-bold">SETUP</span>
           </div>
@@ -24,7 +26,9 @@
             <span class="text-lg"
               ><img
                 src="../../assets/school_FILL0_wght400_GRAD0_opsz48.svg"
-                alt=""
+                alt="school graduation hat icon"
+                width="48"
+                height="48"
             /></span>
             <span class="font-bold">BASICS</span>
           </div>
@@ -37,7 +41,9 @@
             <span
               ><img
                 src="../../assets/handyman_FILL0_wght400_GRAD0_opsz48.svg"
-                alt=""
+                alt="build handyman icon"
+                width="48"
+                height="48"
             /></span>
             <span class="font-bold">PROJECTS</span>
           </div>
