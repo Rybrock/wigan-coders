@@ -6,7 +6,7 @@
     <div class="lg:hidden mb-4">
         <span class="ext-grey font-bold text-2xl text-left">Our next event is</span>
     </div>
-    <div class="countdown flex justify-center p-3 md:p-4 rounded-full space-x-6 bg-blue-400 hover:bg-blue-300 w-11/12 md:w-6/12">
+    <div class="countdown flex justify-center p-3 md:p-4 rounded-full space-x-4 bg-blue-400 hover:bg-blue-300 w-11/12 md:w-6/12">
       <div v-if="days" class="countdown__block text-sm md:text-xl font-bold text-white flex space-x-2">
         <div class="countdown__digit">{{ days | twoDigits }}</div>
         <div class="countdown__text">Days</div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-center items-center w-full">
+  <div class="flex flex-col justify-center items-center w-full mb-28 lg:mb-8">
     <div class="text-center mt-10 mb-8">
       <span class="text-3xl font-bold">Contact Us </span>
       <p class="w-full lg:w-8/12 mx-auto text-center text-lg">
@@ -8,8 +8,8 @@
         24hrs.
       </p>
     </div>
-    <div class="flex flex-col md:flex-row md:space-x-14 space-y-10 md:space-y-0">
-      <div v-if="!success" class="flex flex-col justify-center w-full lg:w-6/12">
+    <div class="flex flex-col justify-center w-full md:flex-row md:space-x-24 space-y-10 md:space-y-0">
+      <div v-if="!success" class="flex flex-col justify-center w-full lg:w-4/12">
          
       <h2 class="text-left text-xl font-bold mb-4 px-2 md:px-0">Have an enquiry?</h2>
           <!-- loading spinner -->
@@ -35,7 +35,7 @@
           </label>
 
           <label class="flex flex-col text-white font-bold text-lg" for="phone">Phone Number:
-            <input class="p-3 rounded-lg text-gray-900" type="phone" name="phone" v-model="phoneNumber" placeholder="please enter you phone number" required>
+            <input class="p-3 rounded-lg text-gray-900" type="text" name="phone" v-model="phoneNumber" placeholder="please enter you phone number" required>
           </label>
 
           <label class="flex flex-col text-white font-bold text-lg" for="message">Your Message:
@@ -48,9 +48,9 @@
         </form>
     </div>
          <!-- success message -->
-         <div class="flex flex-col justify-center w-full lg:w-6/12" v-if="success">
-          <p class="font-bold text-2xl">Email submitted!</p>
-          <img src="../assets/Checkmark-green-tick-isolated-on-transparent-background-PNG.png" class="mx-auto" width="300" height="300" alt="">
+         <div class="flex flex-col justify-center w-full lg:w-4/12" v-if="success">
+          <p class="font-bold text-2xl">Enquiry submitted!</p>
+          <img src="../assets/Checkmark-green-tick-isolated-on-transparent-background-PNG.png" class="mx-auto" width="200" height="200" alt="">
             <p class="font-bold text-2xl">Thank you!</p>
           </div>
     <div class="w-full lg:w-6/12 px-2">

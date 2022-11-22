@@ -11,7 +11,7 @@
                 </div>
                 <div>
                     <span>Find us on Social</span>
-                    <div class="flex items-center justify-center text-lg md:space-x-2">
+                    <div class="flex items-center justify-center text-lg md:space-x-2 mt-4">
                     <span><img src="../assets/facebook.png" alt="facebook footer icon" width="30" height="30"></span>
                     <span><img src="../assets/instagram.png" alt="instagram footer icon" width="30" height="30"></span>
                     <span><img src="../assets/twitter.png" alt="twitter footer icon" width="30" height="30"></span>

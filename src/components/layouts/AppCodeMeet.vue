@@ -5,7 +5,7 @@
       <span class="text-lg my-2 font-bold">As simple as 1, 2  <span class="text-red-600">  &lt;</span> dev! <span class="text-red-600">/></span></span>
     </div>
     <section>
-      <div class="flex flex-col lg:flex-row lg:px-5 text-xl mt-10 space-x-2">
+      <div class="flex flex-col lg:flex-row lg:px-5 text-xl mt-10 lg:space-x-2">
         <div class="flex flex-col text-left p-2 w-full lg:w-4/12">
           <div class="flex items-center mr-2 space-x-2 mb-4">
             <span
@@ -18,7 +18,7 @@
             <span class="font-bold">SETUP</span>
           </div>
           <span class="text-lg"
-            >During this process we will get your computer setup for a coding environment. Install the programs and software you'll need to get up and running and ready to type some code! We'll also get you setup on Slack so you can keep in touch and join this wonderful tech community at wigan codes.
+            >In the setup process we will get your computer ready for a coding environment. Install the programs and software you'll need to get up, running and ready to type some code! We will also get you setup on Slack so you can keep in touch and join this wonderful community at wigan codes.
           </span>
         </div>
         <div class="flex flex-col text-left p-2 w-full lg:w-4/12">

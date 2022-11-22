@@ -11,9 +11,9 @@
         justify-center
         lg:justify-start
         items-center
-        space-x-4
+        lg:space-x-4
         text-stone-800
-        lg:pb-10
+        lg:pb-28
       "
     >
       <div class="text-left mt-4 w-full lg:w-7/12">
@@ -75,3 +75,5 @@ export default {
   },
 };
 </script>
+ <style>
+</style>
