@@ -26,7 +26,7 @@
         <div class="mt-10">
       <app-countdown :date="end" @onFinish="finish()"></app-countdown>
     </div>
-    <div class="mt-2 ml-1 text-left">
+    <div class="mt-2 mr-14 text-left lg:text-right">
       <span class="mt-4">see where we are <a href="https://goo.gl/maps/BfCne5e6i4SWBMZC7" target="_blank" class="text-blue-400">located</a></span>
     </div>
       </div>
@@ -65,7 +65,7 @@ export default {
   },
   data() {
     return {
-      end: new Date("2022-11-19T10:00:00"),
+      end: new Date("2022-11-26T10:00:00"),
     };
   },
   methods: {

@@ -4,8 +4,10 @@
             <div class="nav-wrapper place-items-center space-x-6 w-full flex">
                 <div class="px-0 md:px-5 flex justify-around items-center space-x-10">
                     <div class="w-full">
-                        <span class="text-2xl lg:text-4xl font-semibold"><span class="text-red-500">&lt; </span>wigan
+                        <router-link to="/">
+                            <span class="text-2xl lg:text-4xl font-semibold"><span class="text-red-500">&lt; </span>wigan
                             coders<span class="text-red-500"> /></span></span>
+                        </router-link>
                     </div>
                     <div class="md:hidden" @click.prevent="openCloseNav()">
                         <img src="../assets/menu_FILL0_wght400_GRAD0_opsz48.svg" width="30" height="30" alt="menu icon" class="ml-10" />
