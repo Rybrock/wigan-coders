@@ -5,12 +5,12 @@
                 <div class="px-0 md:px-5 flex justify-around items-center space-x-10">
                     <div class="w-full">
                         <router-link to="/">
-                            <span class="text-2xl lg:text-4xl font-semibold"><span class="text-red-500">&lt; </span>wigan
-                            coders<span class="text-red-500"> /></span></span>
+                            <span class="text-3xl w-full lg:text-4xl font-semibold"><span class="text-red-500 text-xl">&lt; </span>wigan
+                            coders<span class="text-red-500 text-xl"> /></span></span>
                         </router-link>
                     </div>
                     <div class="md:hidden" @click.prevent="openCloseNav()">
-                        <img src="../assets/menu_FILL0_wght400_GRAD0_opsz48.svg" width="30" height="30" alt="menu icon" class="ml-10" />
+                        <img src="../assets/menu_FILL0_wght400_GRAD0_opsz48.svg" width="30" height="30" alt="menu icon" class="ml-2 md:ml-10" />
                     </div>
                 <div class="font-bold space-x-8 hidden md:flex">
                     <router-link to="/">Home</router-link>

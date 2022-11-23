@@ -16,9 +16,9 @@
         lg:pb-28
       "
     >
-      <div class="text-left mt-4 w-full lg:w-7/12">
-        <span class="font-bold text-3xl lg:text-5xl mb-4">LEARN TO CODE WITH US</span>
-        <p class="w-full lg:w-9/12 mt-2 text-xl">
+      <div class="text-left mt-10 w-full lg:w-7/12">
+        <span class="font-bold text-4xl lg:text-5xl mb-8">Learn how to code with us</span>
+        <p class="w-full lg:w-9/12 mt-8 text-xl">
           Come to our meet-up event at Wigan Library every Saturday morning.
           Where we discuss and learn about all things coding. We build exciting
           real world projects with HTML, CSS and JAVASCRIPT.
