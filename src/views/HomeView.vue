@@ -51,17 +51,25 @@
     </section>
 
   </div>
+
+  <section>
+    <div>
+      <app-expect/>
+    </div>
+  </section>
 </template>
 
 <script>
 // @ is an alias to /src
 import AppCountdown from "@/components/AppCountdown.vue";
 import AppCodeMeet from "@/components/layouts/AppCodeMeet.vue";
+import AppExpect from "@/components/layouts/AppExpect.vue";
 export default {
   name: "HomeView",
   components: {
     AppCountdown,
-    AppCodeMeet
+    AppCodeMeet,
+    AppExpect
   },
   data() {
     return {
