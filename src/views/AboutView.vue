@@ -12,7 +12,7 @@
     </div>
     <div class="flex flex-col w-full justify-center items-center p-2 md:p-0">
     <p class="font-bold text-sm w-full lg:w-8/12">We are a none for profit organization with the view to helping people understand what coding is and how they go about beginning to learn. We offer free impartial advice and have a HTML, CSS and JAVASCRIPT curriculum coming soon!</p>
-    <p class="flex font-bold w-full justify-center p-2 md:p-0 mt-4">+16 years and above</p>
+    <p class="flex font-bold w-full justify-center p-2 md:p-0 mt-4">*** +16 years and above</p>
 </div>
   </div>
 

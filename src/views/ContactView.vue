@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col justify-center items-center w-full mb-28 lg:mb-8 bg-stone-50 pb-8">
-    <div class="text-center mt-10 mb-8">
+  <div class="flex flex-col justify-center items-center w-full lg:mb-8 bg-stone-50 pb-8">
+    <div class="text-center mt-10">
       <span class="text-3xl font-bold mb-10">Contact Us </span>
-      <p class="w-full lg:w-8/12 mx-auto text-center text-lg mt-4">
+      <p class="w-full lg:w-8/12 mx-auto text-center text-lg mb-16 mt-4">
         There are many way's you can get in touch. Contact us on social media or
         send us an email. Whatever your preference we hope to respond within
         24hrs.
@@ -54,7 +54,7 @@
             <p class="font-bold text-2xl">Thank you!</p>
           </div>
     <div class="w-full lg:w-6/12 px-2">
-      <h2 class="text-center font-bold mb-4 text-xl">Prefer to call?</h2>
+      <h2 class="text-center font-bold mb-4 mt-4 text-xl">Prefer to call?</h2>
       <div class="flex items-center justify-center lg:space-x-4">
         <div>
           <img src="../assets//phone_in_talk_FILL0_wght400_GRAD0_opsz48.svg" width="80" height="80" alt="">
