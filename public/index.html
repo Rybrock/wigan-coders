@@ -7,6 +7,16 @@
     <meta name="description" content="welcome to wigan-coders">
     <meta name="title" content="welcome to wigan coders">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LVC7S4JJ7C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LVC7S4JJ7C');
+</script>
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
@@ -15,5 +25,6 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    
   </body>
 </html>
