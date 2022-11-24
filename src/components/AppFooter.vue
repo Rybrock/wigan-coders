@@ -1,17 +1,22 @@
 <template>
         <footer>
-            <div class="flex flex-col md:flex-row justify-between p-8 space-y-6 md:space-y-0">
-                <div class="px-5 text-lg flex flex-col md:flex-row md:space-x-4">
+            <div class="flex flex-col md:flex-row justify-between p-8 space-y-10 md:space-y-0">
+                <div class="px-2 text-lg md:text-sm flex flex-col md:flex-row md:space-x-4">
                     <router-link to="/about">
                         <span>About</span>
                     </router-link>
                     <router-link to="/contact">
                         <span>Contact</span>
                     </router-link>
+                    <router-link to="/privacy-policy">
+                        <span>Privacy Policy</span>
+                    </router-link>
+                    <router-link to="/terms">
+                        <span>Terms & Conditions</span>
+                    </router-link>
                 </div>
                 <div>
-                    <span>Find us on Social</span>
-                    <div class="flex items-center justify-center text-lg space-x-2 mt-4">
+                    <div class="flex items-center justify-center text-lg space-x-2">
                         <a href="https://www.facebook.com/profile.php?id=100088226045193" target="_blank">
                             <span><img src="../assets/facebook.png" alt="facebook footer icon" width="30" height="30"></span>
                         </a>

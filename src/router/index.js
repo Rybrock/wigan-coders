@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ContactView from '../views/ContactView.vue'
+import privacyPolicy from '@/views/services/privacyPolicy.vue'
+import termsConditions from '../views/services/termsConditions.vue'
 
 const routes = [
   {
@@ -20,6 +22,16 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: ContactView
+  },
+  {
+    path: '/privacy-policy',
+    name: 'privacyPolicy',
+    component: privacyPolicy
+  },
+  {
+    path: '/terms',
+    name: 'termsConditions',
+    component: termsConditions
   }
 ]
 
