@@ -8,7 +8,20 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: HomeView,
+    meta: {
+      title: 'Wigan Coders - Welcome',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Wigan Coders - Welcome'
+        },
+        {
+          property: 'og:description',
+          content: 'Wigan Coders - Welcome'
+        }
+      ]
+    }
   },
   {
     path: '/about',
