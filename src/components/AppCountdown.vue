@@ -1,12 +1,12 @@
 <template>
     <div class="flex flex-col lg:flex-row space-x-0 lg:space-x-4">
-        <div class="flex justify-center p-4 rounded-full space-x-6 lg:w-5/12 hidden lg:flex">
+        <div v-if="!finish" class="flex justify-center p-4 rounded-full space-x-6 lg:w-5/12 hidden lg:flex">
         <span class="text-grey font-bold text-xl">Join us on the next event ></span>
     </div>
     <div class="lg:hidden mb-4">
         <span class="ext-grey font-bold text-2xl text-left">Our next event is</span>
     </div>
-    <div class="countdown flex justify-center p-3 md:p-4 rounded-full space-x-4 bg-blue-400 hover:bg-blue-300 w-11/12 md:w-6/12">
+    <div v-if="!finish" class="countdown flex justify-center p-3 md:p-4 rounded-full space-x-4 bg-blue-400 hover:bg-blue-300 w-11/12 md:w-6/12">
       <div v-if="days" class="countdown__block text-sm md:text-xl font-bold text-white flex space-x-2">
         <div class="countdown__digit">{{ days | twoDigits }}</div>
         <div class="countdown__text">Days</div>
@@ -23,6 +23,9 @@
         <div class="countdown__digit">{{ seconds | twoDigits }}</div>
         <div class="countdown__text">Sec</div>
       </div>
+    </div>
+    <div v-else class="flex text-right">
+      <p class="font-bold text-3xl text-red-500">We are in session!</p>
     </div>
     </div>
     
