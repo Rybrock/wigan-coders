@@ -2,13 +2,16 @@
         <footer>
             <div class="flex flex-col md:flex-row justify-between p-8 space-y-10 md:space-y-0">
                 <div class="px-2 text-lg md:text-sm flex flex-col md:flex-row md:space-x-4">
-                    <router-link to="/about">
+                    <router-link to="/" @click.native="$scrollToTop">
+                        <span>Home</span>
+                    </router-link>
+                    <router-link to="/about" @click.native="$scrollToTop">
                         <span>About</span>
                     </router-link>
-                    <router-link to="/contact">
+                    <router-link to="/contact" @click.native="$scrollToTop">
                         <span>Contact</span>
                     </router-link>
-                    <router-link to="/privacy-policy">
+                    <router-link to="/privacy-policy" @click.native="$scrollToTop">
                         <span>Privacy Policy</span>
                     </router-link>
                     <router-link to="/terms">
@@ -38,3 +41,10 @@
           
         </footer>
 </template>
+
+<script>
+export default {
+
+    }
+
+</script>
