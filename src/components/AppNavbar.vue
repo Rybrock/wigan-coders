@@ -5,7 +5,7 @@
                 <div class="px-0 md:px-5 flex justify-around items-center space-x-10">
                     <div class="w-full">
                         <router-link to="/">
-                            <span class="text-3xl w-full lg:text-4xl font-semibold"><span class="text-red-500 text-xl">&lt; </span>wigan
+                            <span class="text-3xl w-full lg:text-2xl font-semibold"><span class="text-red-500 text-xl">&lt; </span>wigan
                             coders<span class="text-red-500 text-xl"> /></span></span>
                         </router-link>
                     </div>

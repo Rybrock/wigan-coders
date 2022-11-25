@@ -17,7 +17,7 @@
       "
     >
       <div class="text-left mt-10 w-full lg:w-7/12">
-        <span class="font-bold text-4xl lg:text-5xl mb-8">Learn how to code with us</span>
+        <span class="font-bold text-4xl lg:text-4xl mb-8">Learn how to code with us</span>
         <p class="w-full lg:w-9/12 mt-8 text-xl">
           Come to our meet-up event at Wigan Library every Saturday morning.
           Where we discuss and learn about all things coding. We build exciting
