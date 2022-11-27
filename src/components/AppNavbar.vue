@@ -12,7 +12,7 @@
                     <div class="md:hidden" @click.prevent="openCloseNav()">
                         <img src="../assets/menu_FILL0_wght400_GRAD0_opsz48.svg" width="30" height="30" alt="menu icon" class="ml-2 md:ml-10" />
                     </div>
-                <div class="font-bold space-x-8 hidden md:flex">
+                <div class="space-x-8 hidden md:flex">
                     <router-link to="/">Home</router-link>
                     <router-link to="/about">About</router-link>
                     <router-link to="/contact">Contact</router-link>
@@ -24,7 +24,7 @@
                     <img @click.prevent="openCloseNav()" src="../assets/close_FILL0_wght400_GRAD0_opsz48.svg" width="20"
                         height="20" alt="close menu icon" class="font-bold">
                 </div>
-                <div class="text-xl p-4 font-bold">
+                <div class="text-xl p-4">
                     <ul class="space-y-6">
                         <li @click="openCloseNav()">
                             <router-link to="/"> Home </router-link>

@@ -35,7 +35,7 @@
                 </div>
                 </div>
                 <div class="px-5">
-                <span class="text-lg font-bold py-6">© wigan coders 2022</span>
+                <span class="text-lg py-6">© wigan coders 2022</span>
             </div>
             </div>
           

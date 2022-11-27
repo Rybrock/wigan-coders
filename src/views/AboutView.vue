@@ -9,7 +9,7 @@
         items-center
         lg:space-x-24
         w-full
-        mb-24
+        mb-32
       "
     >
       <div class="w-full lg:w-5/12">
@@ -47,7 +47,7 @@
         w-full
         justify-center
         items-center
-        md:p-0
+        p-4
         mx-auto
         bg-gray-200
       "
@@ -56,8 +56,8 @@
         <img
           src="../assets/school_FILL0_wght400_GRAD0_opsz48.svg"
           alt=""
-          width="100"
-          height="100"
+          width="80"
+          height="80"
           class="mb-1"
         />
       </div>
