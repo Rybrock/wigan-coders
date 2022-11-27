@@ -73,7 +73,7 @@ export default {
   },
   data() {
     return {
-      end: new Date("2022-11-26T10:00:00"),
+      end: new Date("2022-12-03T10:00:00"),
     };
   },
   methods: {
