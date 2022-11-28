@@ -36,6 +36,9 @@
                         <li @click="openCloseNav()">
                             <router-link to="/contact"> Contact </router-link>
                         </li>
+                        <li @click="openCloseNav()">
+                            <router-link to="/resource"> Resources </router-link>
+                        </li>
                         <li class="text-gray-300">
                             HTML course - soon
                         </li>

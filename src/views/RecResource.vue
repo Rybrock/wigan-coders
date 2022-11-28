@@ -42,7 +42,7 @@
         <ul class="space-y-5">
           <li class="flex items-center justify-between space-x-5">
             <div class="flex flex-col text-left">
-              <span class="text-lg font-bold">HTML - almost complete!</span>
+              <span class="text-lg font-bold">HTML5 - almost complete!</span>
               <p>
                 Projects include a Contact Card, a YouTub clone and much more!
               </p>
@@ -51,7 +51,7 @@
           </li>
           <li class="flex items-center justify-between space-x-5">
             <div class="flex flex-col text-left">
-              <span class="text-lg font-bold">HTML - almost complete!</span>
+              <span class="text-lg font-bold">CSS3 - almost complete!</span>
               <p>
                 Projects include a Contact Card, a YouTub clone and much more!
               </p>
@@ -65,7 +65,7 @@
           </li>
           <li class="flex items-center justify-between space-x-5">
             <div class="flex flex-col text-left">
-              <span class="text-lg font-bold">HTML - almost complete!</span>
+              <span class="text-lg font-bold">JAVASCRIPT - almost complete!</span>
               <p>
                 Projects include a Contact Card and a YouTub clone, a weather
                 app and much more!
@@ -80,7 +80,7 @@
           </li>
           <li class="flex items-center justify-between space-x-5">
             <div class="flex flex-col text-left">
-              <span class="text-lg font-bold">HTML - almost complete!</span>
+              <span class="text-lg font-bold">VUE.JS - almost complete!</span>
               <p>
                 Projects include a Todo app, digital clock, a live chat app and
                 much more!
