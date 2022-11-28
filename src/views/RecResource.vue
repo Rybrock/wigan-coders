@@ -34,6 +34,8 @@
           flex flex-col
           justify-center
           items-center
+          bg-white
+          shadow
         "
       >
         <h2 class="text-xl font-bold mb-8">Exciting new courses on the way!</h2>
