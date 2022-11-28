@@ -5,11 +5,14 @@ import privacyPolicy from '@/views/services/privacyPolicy.vue'
 import termsConditions from '../views/services/termsConditions.vue'
 import RecResource from '@/views/RecResource.vue'
 
+function lazyLoad(view){
+  return() => import(`@/views/${view}.vue`)
+}
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView,
+    component: lazyLoad('HomeView'),
     meta: {
       title: 'Wigan Coders - Welcome',
       metaTags: [
@@ -35,12 +38,12 @@ const routes = [
   {
     path: '/contact',
     name: 'contact',
-    component: ContactView
+    component: lazyLoad('ContactView')
   },
   {
     path: '/resource',
     name: 'RecResource',
-    component: RecResource
+    component: lazyLoad('RecResource')
   },
   {
     path: '/privacy-policy',

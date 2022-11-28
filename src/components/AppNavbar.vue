@@ -26,7 +26,7 @@
                         height="20" alt="close menu icon" class="font-bold">
                 </div>
                 <div class="text-xl p-4">
-                    <ul class="space-y-6">
+                    <ul class="space-y-8">
                         <li @click="openCloseNav()">
                             <router-link to="/"> Home </router-link>
                         </li>

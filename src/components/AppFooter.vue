@@ -11,7 +11,7 @@
       "
     >
       <div
-        class="px-2 text-lg md:text-sm flex flex-col md:flex-row md:space-x-4"
+        class="px-2 text-lg md:text-sm flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-10"
       >
         <router-link to="/">
           <span>Home</span>
