@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import ContactView from '../views/ContactView.vue'
 import privacyPolicy from '@/views/services/privacyPolicy.vue'
 import termsConditions from '../views/services/termsConditions.vue'
+import RecResource from '@/views/RecResource.vue'
 
 const routes = [
   {
@@ -35,6 +36,11 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: ContactView
+  },
+  {
+    path: '/resource',
+    name: 'RecResource',
+    component: RecResource
   },
   {
     path: '/privacy-policy',

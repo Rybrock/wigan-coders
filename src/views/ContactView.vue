@@ -11,7 +11,7 @@
     "
   >
     <div class="text-center mt-10">
-      <span class="text-3xl font-bold mb-10">Contact Us </span>
+      <h1 class="text-3xl font-bold mb-10">Contact Us </h1>
       <p class="w-full lg:w-8/12 mx-auto text-center text-lg mb-16 mt-4">
         There are many way's you can get in touch. Contact us on social media or
         send us an email. Whatever your preference we hope to respond within
