@@ -27,7 +27,7 @@
       <app-countdown :date="end" @onFinish="finish()"></app-countdown>
     </div>
     <div class="mt-2 mr-14 text-left lg:text-right">
-      <span class="mt-4">see where we are <a href="https://goo.gl/maps/BfCne5e6i4SWBMZC7" target="_blank" class="text-blue-400">located</a></span>
+      <span class="mt-4">see where we are <a href="https://goo.gl/maps/BfCne5e6i4SWBMZC7" target="_blank" class="text-blue-900 font-bold">located</a></span>
     </div>
       </div>
    

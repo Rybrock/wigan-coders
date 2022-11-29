@@ -53,7 +53,7 @@
               md:w-8/12
             "
           >
-            <img src="../../assets/github.png" width="70" height="30" alt="" />
+            <img src="../../assets/github.webp" width="70" height="30" alt="" />
             <p class="w-full">
               An account with GitHub. We can however do this on the day. We use
               GitHub to store our code and more. You can signup
@@ -77,7 +77,7 @@
             "
           >
             <img
-              src="../../assets/285695_terminal_icon.png"
+              src="../../assets/285695_terminal_icon.webp"
               width="70"
               height="30"
               alt=""

@@ -38,7 +38,7 @@
           >
             <span
               ><img
-                src="../assets/facebook.png"
+                src="../assets/facebook.webp"
                 alt="facebook footer icon"
                 width="30"
                 height="30"
@@ -50,7 +50,7 @@
           >
             <span
               ><img
-                src="../assets/instagram.png"
+                src="../assets/instagram.webp"
                 alt="instagram footer icon"
                 width="30"
                 height="30"
@@ -59,7 +59,7 @@
           <a href="https://twitter.com/coders_wigan" target="_blank">
             <span
               ><img
-                src="../assets/twitter.png"
+                src="../assets/twitter.webp"
                 alt="twitter footer icon"
                 width="30"
                 height="30"
@@ -68,7 +68,7 @@
           <a href="https://github.com/Wigan-Coders-Git" target="_blank">
             <span
               ><img
-                src="../assets/github.png"
+                src="../assets/github.webp"
                 alt="github footer icon"
                 width="30"
                 height="30"

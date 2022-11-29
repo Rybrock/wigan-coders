@@ -108,21 +108,21 @@
             <h2 class="font-bold text-lg mb-5">Free Code Camp</h2>
             <img src="../assets/icons8-free-code-camp-48.png" class="mb-4" width="58" height="58" alt="">
             <p class="text-lg">Free Code Camp is exactly that. An online website where you can learn almost any coding language you like completely free. They have hundreds of projects you can build to make it even more fun.</p>
-            <p class="mt-5 font-bold text-lg mt-4"><a href="https://www.freecodecamp.org/" class="bg-blue-900 p-2 text-white rounded-lg" target="_blank">https://www.freecodecamp.org/</a></p>
+            <p class="mt-5 font-bold text-lg mt-4"><a href="https://www.freecodecamp.org/" class="bg-blue-900 p-3 text-white rounded-full" target="_blank">https://www.freecodecamp.org/</a></p>
         </div>
         <div class="card flex flex-col justify-center items-center w-full md:w-4/12 p-2">
             <h2 class="font-bold text-lg mb-5">Code Academy</h2>
             <img src="../assets/4691345_codecademy_icon.png" class="mb-4" width="58" height="58" alt="">
             <p class="text-lg">Code Academy is another fantastic free online resource that is project based learning. All coding stacks are available and they even have a premium tier to join for the more enthusiastic coders out there.</p>
-            <p class="mt-5 font-bold text-lg mt-4"><a href="https://www.codecademy.com/" class="bg-black p-2 text-white rounded-lg" target="_blank">https://www.codecademy.com/</a></p>
+            <p class="mt-5 font-bold text-lg mt-4"><a href="https://www.codecademy.com/" class="bg-black p-3 text-white rounded-full" target="_blank">https://www.codecademy.com/</a></p>
         </div>
         <div class="card flex flex-col justify-center items-center w-full md:w-4/12 p-2">
             <h2 class="font-bold text-lg mb-5">YouTube</h2>
             <img src="../assets/youtube.png" class="mb-4" width="58" height="58" alt="">
             <p class="text-lg">YouTube is a great place to find video courses for free. You can find everything from coding websites and apps to games! We have 2 favorite online tutors teaching a wide range of tech.</p>
             <p class="mt-5 font-bold text-lg flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-8">
-                <a href="https://www.youtube.com/@NetNinja" target="_blank" class="bg-red-600 p-2 text-white rounded-xl shadow">The Net Ninja</a>
-                <a href="https://www.youtube.com/@TraversyMedia" target="_blank" class="bg-red-600 p-2 text-white rounded-xl shadow">Traversy Media</a>
+                <a href="https://www.youtube.com/@NetNinja" target="_blank" class="bg-red-600 p-3 text-white rounded-full shadow">The Net Ninja</a>
+                <a href="https://www.youtube.com/@TraversyMedia" target="_blank" class="bg-red-600 p-3 text-white rounded-full shadow">Traversy Media</a>
             </p>
         </div>
       </div>
@@ -138,7 +138,7 @@
         </div>
       <div class="p-2 w-full md:w-4/12">
         <a href="https://www.manchestercodes.com/" target="_blank">
-            <span class="bg-blue-500 hover:bg-blue-300 p-4 text-white text-lg font-bold rounded-lg w-full">Visit the site</span>
+            <span class="bg-blue-500 hover:bg-blue-300 p-4 text-white text-lg font-bold rounded-xl w-full">Visit the site</span>
         </a>
       </div>
       </div>
