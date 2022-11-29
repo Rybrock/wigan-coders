@@ -26,6 +26,8 @@
         md:flex-row md:space-x-24
         space-y-10
         md:space-y-0
+        p-3
+        md:p-0
       "
     >
       <div
@@ -168,25 +170,25 @@
         <img
           src="../assets/Checkmark-green-tick-isolated-on-transparent-background-PNG.png"
           class="mx-auto"
-          width="200"
-          height="200"
+          width="150"
+          height="150"
           alt=""
         />
         <p class="font-bold text-2xl">Thank you!</p>
       </div>
-      <div class="w-full lg:w-6/12">
-        <h2 class="text-center font-bold mb-4 text-xl">Prefer to call?</h2>
+      <div class="w-full flex flex-col justify-center items-center lg:w-6/12">
+        <h2 class="text-center font-bold mb-4 px-2 md:px-0 text-xl md:mt-8">Prefer to call?</h2>
         <div class="flex items-center justify-center lg:space-x-4">
           <div>
             <img
               src="../assets//phone_in_talk_FILL0_wght400_GRAD0_opsz48.svg"
-              width="80"
-              height="80"
-              alt=""
+              width="50"
+              height="50"
+              alt="icon of a phone to indicate a call can be made"
             />
           </div>
           <div>
-            <img src="../assets/whatsapp.png" width="80" height="80" alt="" />
+            <img src="../assets/whatsapp.png" width="50" height="50" alt="WhatsApp Messenger logo" />
           </div>
         </div>
         <p class="font-bold text-xl my-2">07539294710</p>
